@@ -1,7 +1,7 @@
 import axios from "axios";
 
 interface getfilter {
-id: string;
+  id: number;
   name: string;
   phone: string
   address: string;
