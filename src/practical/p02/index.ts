@@ -42,7 +42,7 @@ type UserResponse = {
 };
 
 export async function addUser(
-  newUserData: NewUser
+  newUserData: newUser
 ): Promise<UserResponse[]> {
   try {
     const response = await axios.get(
