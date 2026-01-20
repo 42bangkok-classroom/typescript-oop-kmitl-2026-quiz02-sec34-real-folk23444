@@ -23,5 +23,13 @@
   },
   "dependencies": {
     "axios": "^1.13.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/42bangkok-classroom/typescript-oop-kmitl-2026-quiz02-sec34-real-folk23444.git"
+  },
+  "bugs": {
+    "url": "https://github.com/42bangkok-classroom/typescript-oop-kmitl-2026-quiz02-sec34-real-folk23444/issues"
+  },
+  "homepage": "https://github.com/42bangkok-classroom/typescript-oop-kmitl-2026-quiz02-sec34-real-folk23444#readme"
 }
