@@ -44,6 +44,4 @@ export const getPostalAddress = async (): Promise<PostalUser[]> => {
       address: user.address ?? null,
     }));
   } catch {
-    return [];
-  }
-};
+    re
