@@ -22,6 +22,7 @@ Promise<UserResponse | "Invalid id">
 try {
 const response = await axios.get("https://jsonplaceholder.typicode.com/users");
 const foundUser = response.data.find((user: { id: number }) => user.id === id;
+);
 
 if (!foundUser){
 return "Invalid id";
