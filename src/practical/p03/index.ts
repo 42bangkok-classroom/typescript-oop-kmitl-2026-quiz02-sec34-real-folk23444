@@ -17,7 +17,7 @@ type UserResponse = {
 };
 
 export async function filterUserById(id: number):
-Promise<UserResponse[]>
+Promise<UserResponse | "Invalid id">
 {
 try {
 const response = await axios.get("https://jsonplaceholder.typicode.com/users");
@@ -34,4 +34,7 @@ return {
   address: foundUser.address ?? null,
 };
 };
+catch {
+return "Invalid id";
+}
 }
